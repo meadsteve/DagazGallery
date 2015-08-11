@@ -1,0 +1,27 @@
+{
+    "name": "mead_steve/dagaz_gallery",
+    "description": "Gallery software",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve Brazier",
+            "email": "meadsteve@gmail.com"
+        }
+    ],
+    "require": {
+        "league/flysystem": "~1.0.11",
+        "intervention/image": "~2.3.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MeadSteve\\DagazGallery\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}

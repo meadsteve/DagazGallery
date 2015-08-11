@@ -1,0 +1,6 @@
+suites:
+  default:
+    namespace: MeadSteve\DagazGallery
+    psr4_prefix: MeadSteve\DagazGallery
+    src_path: src
+    spec_prefix: spec
