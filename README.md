@@ -1,0 +1,2 @@
+# DagazGallery
+Image gallery software
